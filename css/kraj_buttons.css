@@ -1,0 +1,89 @@
+.buttons {
+        box-sizing: border-box;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        min-width: 300px;
+        max-height: 574.5px;
+        min-height: 574.5px;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+    }
+        .single-button{
+            height: 59px;
+            box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            transition: 0.15s;
+        }   
+        .single-button:not(:last-of-type){
+            margin-bottom: 20px;
+        }
+            .button-picture{
+                flex:1;
+                display: flex;
+                align-items: center;
+            }
+                .button-image{
+                    width: 30px;
+                }
+            .button-info{
+                flex: 3;
+                text-align: center;
+            }
+        .single-button:hover{
+            background-color: rgb(50, 50, 50);
+            color: white;
+            box-shadow: 0 0 1px 1px white;
+        }
+
+@media (max-width: 1130px) {
+    .buttons {
+        max-height: 504.5px;
+        min-height: 504.5px;
+        border-radius: 30px;
+    }
+    .single-button {
+        height: 50px;
+        border-radius: 20px;
+    }
+    .button-image {
+        width: 25px;
+    }
+}
+
+@media (max-width: 639.2px) {
+    .buttons {
+        max-height: 574.5px;
+        min-height: 574.5px;
+        border-radius: 25px;
+    }
+    .single-button {
+        height: 59px;
+        border-radius: 15px;
+    }
+
+    .button-image {
+        width: 30px;
+    }
+}
+
+@media (max-width: 410px) {
+    .buttons {
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 370px) {
+    .buttons{
+        min-width: 220px;
+    }
+}
+
