@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <title>porada.cz</title>
+    <link rel="stylesheet" href="../../../css/general.css">
+    <link rel="stylesheet" href="../../../css/header.css">
+    <link rel="stylesheet" href="../../../css/main_page.css">
+    <link rel="stylesheet" href="../../../css/single_person.css">
+    <link rel="stylesheet" href="../../../css/kraj_buttons.css">
+    <link rel="stylesheet" href="../../../css/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <script src="../../../js/script.js"></script>
+</head>
+
+<body>
+
+    <header>
+    
+        <div class="company-info">
+            <div class="company-logo">
+                <a href="../../../index.html">
+                    <img class="logo" src="../../../images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="company-name">
+                <p>Poradenské služby <strong>Porada.cz</strong></p>
+            </div>
+        </div>
+    
+        <nav>
+            <ul>
+                <li><a href="../../psycholog/psycholog-html/psycholog_severocesky.html">Psycholog</a></li>
+                <li><a href="pravnik_severocesky.html" style="background-color: rgb(50, 50, 50); color: white;">Právník</a></li>
+                <li><a href="../../prakticky_lekar/prakticky_lekar-html/prakticky_lekar_severocesky.html">Praktický Lekář</a></li>
+                <li><a href="../../zdroje.html">Zdroje</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <main>
+        <div class="main-page-content">
+            <div class="single-person">
+                <div class="person-picture">
+                    <img class="person-image" src="../pravnik-image/Daniel_Grimm.jpg" alt="photo">
+                </div>
+                <div class="person-info">
+                    <p class="person-name">
+                        Mgr. Daniel Grimm
+                    </p>
+                    <p class="single-person-info">
+                        Odborné znalosti, erudice a zkušenosti tvoří jen základ mé práce. Pouze bližší poznání lidí či společností, kterým
+                        pomáhám, mi umožňuje správně rozpoznat jejich potřeby. Podporovat je při jejich podnikání i řešení soukromých
+                        záležitostí a nabízet řešení.
+                    </p>
+                    <p class="single-person-contacts">
+                        Telefon: +420847263753 <span class="single-person-mail">Mail: grimm@gmail.com</span>
+                    </p>
+                </div>
+                <div class="person-mail">
+                    <form class="person-form">
+                        <div class="jmeno-prijmeni">
+                            <input class="jmeno-prijmeni-item" type="text" placeholder="Jmeno">
+                            <input class="jmeno-prijmeni-item" type="text" placeholder="Prijmeni">
+                        </div>
+                        <div class="sender-mail">
+                            <input class="sender-mail-item" type="text" placeholder="Vas mail">
+                        </div>
+                        <div class="sender-message">
+                            <textarea class="sender-message-item" placeholder="Dobry den..."></textarea>
+                        </div>
+                        <div class="form-button">
+                            <input class="form-button-item" type="submit" onclick="pravnikFormSend()" value="Odeslat">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="single-person">
+                <div class="person-picture">
+                    <img class="person-image" src="../pravnik-image/Marcela_Kleinbauerova.jpg" alt="photo">
+                </div>
+                <div class="person-info">
+                    <p class="person-name">
+                        JUDr. Marcela Kleinbauerová
+                    </p>
+                    <p class="single-person-info">
+                        V roce 2014 jsem absolvovala Právnickou fakultu Univerzity Karlovy v Praze. Svou právní praxi jsem zahájila již při
+                        studiu na vysoké škole v Advokátní kanceláři Brož & Sokol & Novák, posléze jsem pokračovala svou praxi jako praktikantka
+                        v menší advokátní kanceláři se zaměřením na generální praxi.
+                    </p>
+                    <p class="single-person-contacts">
+                        Telefon: +420857364232 <span class="single-person-mail">Mail: klein@gmail.com</span>
+                    </p>
+                </div>
+                <div class="person-mail">
+                    <form class="person-form">
+                        <div class="jmeno-prijmeni">
+                            <input class="jmeno-prijmeni-item" type="text" placeholder="Jmeno">
+                            <input class="jmeno-prijmeni-item" type="text" placeholder="Prijmeni">
+                        </div>
+                        <div class="sender-mail">
+                            <input class="sender-mail-item" type="text" placeholder="Vas mail">
+                        </div>
+                        <div class="sender-message">
+                            <textarea class="sender-message-item" placeholder="Dobry den..."></textarea>
+                        </div>
+                        <div class="form-button">
+                            <input class="form-button-item" type="submit" onclick="pravnikFormSend()" value="Odeslat">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <a class="single-button" href="pravnik_stredocesky.html">
+                <div class="button-picture">
+                    <img class="button-image" src="../../../images/kraj/stredocesky_kraj_erb.png" alt="erb">
+                </div>
+                <div class="button-info">
+                    <p class="kraj-name">Středočeský kraj</p>
+                </div>
+            </a>
+            <a class="single-button" href="pravnik_jihocesky.html">
+                <div class="button-picture">
+                    <img class="button-image" src="../../../images/kraj/jihocesky_kraj_erb.png" alt="erb">
+                </div>
+                <div class="button-info">
+                    <p class="kraj-name">Jihočeský kraj</p>
+                </div>
+            </a>
+            <a class="single-button" href="pravnik_zapadocesky.html">
+                <div class="button-picture">
+                    <img class="button-image" src="../../../images/kraj/zapadocesky_kraj_erb.png" alt="erb">
+                </div>
+                <div class="button-info">
+                    <p class="kraj-name">Západočeský kraj</p>
+                </div>
+            </a>
+            <a class="single-button" href="pravnik_severocesky.html" style="background-color: rgb(50,50,50); color: white;">
+                <div class="button-picture">
+                    <img class="button-image" src="../../../images/kraj/severocesky_kraj_erb.png" alt="erb">
+                </div>
+                <div class="button-info">
+                    <p class="kraj-name">Severočeský kraj</p>
+                </div>
+            </a>
+            <a class="single-button" href="pravnik_vychodocesky.html">
+                <div class="button-picture">
+                    <img class="button-image" src="../../../images/kraj/vychodocesky_kraj_erb.png" alt="erb">
+                </div>
+                <div class="button-info">
+                    <p class="kraj-name">Východočeský kraj</p>
+                </div>
+            </a>
+            <a class="single-button" href="pravnik_jihomoravsky.html">
+                <div class="button-picture">
+                    <img class="button-image" src="../../../images/kraj/jihomoravsky_kraj_erb.png" alt="erb">
+                </div>
+                <div class="button-info">
+                    <p class="kraj-name">Jihomoravský kraj</p>
+                </div>
+            </a>
+            <a class="single-button" href="pravnik_severomoravsky.html">
+                <div class="button-picture">
+                    <img class="button-image" src="../../../images/kraj/severomoravsky_kraj_erb.png" alt="erb">
+                </div>
+                <div class="button-info">
+                    <p class="kraj-name">Severomoravský kraj</p>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-left-text">Studentský zápočtový projekt</p>
+            <p class="footer-right-text">UHK - Feshchenko Denis &copy; 2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>
